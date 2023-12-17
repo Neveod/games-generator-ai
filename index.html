@@ -7,35 +7,38 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>AI Games Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Games Generator</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter a topic for a game"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" class="" />
-      </form>
-      <div>Game instructions will go here</div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Neveod" target="_blank">Neve O'Dwyer</a> and
-      is
-      <a href="https://github.com/Neveod/games-generator-ai" target="_blank"
-        >open sourced on GitHub</a
-      >
-      and is
-      <a href="https://games-generator-ai-neve.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter a topic for a game"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="game">Game instructions will go here</div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Neveod" target="_blank">Neve O'Dwyer</a> and
+        is
+        <a href="https://github.com/Neveod/games-generator-ai" target="_blank"
+          >open sourced on GitHub</a
+        >
+        and is
+        <a href="https://games-generator-ai-neve.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
